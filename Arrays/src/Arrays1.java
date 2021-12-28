@@ -1,3 +1,6 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class Arrays1 {
     public static void main(String[] args) {
         System.out.println("What is Array");
@@ -29,6 +32,44 @@ public class Arrays1 {
         for (int i : arr) {
             System.out.println(i);
         }
+
+        // String Array Creation
+        String [] Fruit = {"mango","banana","Apple"};
+
+        // for- each Loop
+        for(String s : Fruit)
+        {
+            System.out.println(s);
+        }
+
+        int [] arr1 = new int [5];
+        Scanner sc = new Scanner(System.in);
+        for (int i = 0; i < arr.length; i++) {
+             arr1[i] = sc.nextInt();
+        }
+
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr1[i]+ " ");
+        }
+
+        System.out.println(Arrays.toString(arr1));
+//
+//        for(int a : arr1) // here a represent element of array
+//        {
+//
+//        }
+
+        String [] str = new String[5];
+        for (int i = 0; i < str.length; i++) {
+            str[i] = sc.next();
+
+        }
+        System.out.println(Arrays.toString(str));
+        str[1] = "Pomendkar";
+        System.out.println(Arrays.toString(str));
+
+
+
 
     }
 }
