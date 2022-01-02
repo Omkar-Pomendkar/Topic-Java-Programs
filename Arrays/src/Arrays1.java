@@ -16,6 +16,7 @@ public class Arrays1 {
 //            int arr[] ;
 
         // Array Initialization
+//                     1  2  3  4  5
 //            arr[] = {10,20,30,40,50};
 //            index =   0  1  2  3  4
 
@@ -26,7 +27,7 @@ public class Arrays1 {
         arr[2] = 13;
         arr[3] = 14;
         arr[4] = 15;
-        System.out.println(arr[0]);
+        System.out.println(arr.length);
 
         //Printing Array using For Loop
         for (int i : arr) {
