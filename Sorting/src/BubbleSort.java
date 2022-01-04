@@ -11,7 +11,7 @@ public class BubbleSort {
         boolean swapped;
         //run the steps n times
         for (int i = 0; i < arr.length; i++) {
-            swapped = false;
+            swapped = false; // if u did not swap break the loop
             //for each steps, max item will come at last respective index
             for (int j = 1; j < arr.length-i ; j++) {
                 //swap if the item is smaller then previous
