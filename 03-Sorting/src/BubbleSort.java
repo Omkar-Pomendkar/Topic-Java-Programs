@@ -3,11 +3,11 @@ import java.util.Arrays;
 public class BubbleSort {
     public static void main(String[] args) {
         int [] arr ={1,2,3,4,5};
-        bubblesort(arr);
+        bubbleSort(arr);
         System.out.println(Arrays.toString(arr));
     }
 
-    static void bubblesort(int[] arr) {
+    static void bubbleSort(int[] arr) {
         boolean swapped;
         //run the steps n times
         for (int i = 0; i < arr.length; i++) {
